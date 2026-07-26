@@ -8,7 +8,7 @@
 */
 
 int main(){
-    if (printf("%s\n" , "Hellow world!") < 0)
+    if (printf("%s\n" , "Hellow world!") < 0) 
     {
         return EXIT_FAILURE;
     }
