@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stdbool.h>
 /*
 int main(){
     char *src; // src has a type of char* [pointer]
@@ -15,12 +15,13 @@ void swap(int *pa, int *pb){
     int temp = *pa;
     *pa = *pb;
     *pb = temp;
-    printf("swap: a = %d, b = %d \n",a,b);
+    printf("swap: a = %d, b %d \n",*pa,*pb);
 }
 
 int main(){
     int a = 21;
     int b = 17;
-    swap(21, 17);
+    swap(&a, &b);
     printf("main: a = %d, b = %d \n",a,b);
+    return EXIT_SUCCESS;
 }

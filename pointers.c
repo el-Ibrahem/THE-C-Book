@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    int n =30;
+    int n = 30;
     int *p = &n;
     int **pp;
     pp = &p;
