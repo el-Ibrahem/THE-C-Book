@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stddef.h>
 /*
 int main(){
     int n = 30;
@@ -16,7 +16,8 @@ int main(){
 int main(){
     int *ip = 0;
     char *cp = NULL;
-    
-    printf("%d , %d",*ip,*cp);
+    void *vp = nullptr;
+
+    printf("%d , %d , %d",*ip,*cp,  vp);
 
 }
