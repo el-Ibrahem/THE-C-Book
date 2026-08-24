@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
-/*
-int main(){
-    int n = 30;
-    int *p = &n;
-    int **pp;
-    pp = &p;
-    printf("n:%d ,\np:%d , *p:%d ,\npp:%d , **pp:%d",n ,p,*p ,pp ,**pp);
+// 
+// int main(){
+//     int n = 30;
+//     int *p = &n;
+//     int **pp;
+//     pp = &p;WW
+//     printf("n:%d ,\np:%d , *p:%d ,\npp:%d , **pp:%d",n ,p,*p ,pp ,**pp);
 
-    EXIT_SUCCESS;
-}
-*/
+//     EXIT_SUCCESS;
+// }
+
 
 int main(){
     int *ip = 0;
