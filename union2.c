@@ -21,7 +21,8 @@ int main(void) {
     // ============================================================================
     // 2. INSTANTIATION AND INITIALIZATION
     // ============================================================================
-    // Memory is allocated NOW. Designated initializers select which field to populate.
+    // Memory is allocated NOW. Designated initializers select which field to populate
+    WordView data = {0}; // zeros padded bits meow practice
     WordView data = { .raw = 0x12345678 }; // meow
 
     // ============================================================================

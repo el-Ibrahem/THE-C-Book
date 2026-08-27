@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
 
-
-int main(void) {
     union {
         float f;
         struct {
@@ -10,7 +8,9 @@ int main(void) {
             uint32_t exponent    : 8;  // Bits 23-30
             uint32_t sign        : 1;  // Bit 31     (MSB)
         };
-    } float_encoding;
+    } float_encoding = {0}; // = {0} to set padded bits to zero meow practice
+
+int main(void) {
 
     float_encoding.f = 2.24f;
 
