@@ -16,8 +16,8 @@
 int main(){
     int *ip = 0;
     char *cp = NULL;
-    void *vp = nullptr;
+//    void *vp = nullptr;
 
-    printf("%d , %d , %d",*ip,*cp,  vp);
+    printf("%d , %d ",*ip,*cp);
 
 }
